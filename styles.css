@@ -26,4 +26,14 @@ body {
 #gallery img {
   width: 25%;
   height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  #gallery img {
+    width: 50%;
+  }
 }
