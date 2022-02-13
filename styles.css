@@ -12,3 +12,9 @@ body {
   background-color: #ebe7e7;
   font-family: Arial;
 }
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background-color: #e0dddd;
+}
