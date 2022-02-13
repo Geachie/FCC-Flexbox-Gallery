@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-#gallery img {
-  width: 25%;
-  height: 300px;
-}
-
 body {
   margin: 0;
   background-color: #ebe7e7;
@@ -17,4 +12,13 @@ body {
   text-align: center;
   padding: 32px;
   background-color: #e0dddd;
+}
+
+#gallery {
+  display: flex;
+}
+
+#gallery img {
+  width: 25%;
+  height: 300px;
 }
